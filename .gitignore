@@ -1,0 +1,26 @@
+# Secrets — never commit
+*.env
+.env
+*secret*
+*password*
+*.pem
+*.key
+
+# Runtime data / logs (never belongs in the repo)
+*.log
+db_data/
+mm_data/
+mm_logs/
+mm_config/
+
+# Backups that may hold old hardcoded secrets
+*.bak
+*.bak.*
+*.save
+
+# OS / editor cruft
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
