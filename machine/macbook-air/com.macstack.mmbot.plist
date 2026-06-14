@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>Label</key><string>com.macstack.mmbot</string>
+<key>ProgramArguments</key><array>
+  <string>/opt/homebrew/bin/python3.12</string>
+  <string>/Users/Thomas/.mmbot/mm_listener.py</string>
+</array>
+<key>RunAtLoad</key><true/>
+<key>KeepAlive</key><true/>
+<key>EnvironmentVariables</key><dict>
+  <key>MMBOT_MM_URL</key><string>http://127.0.0.1:8065</string>
+  <key>MMBOT_SENDER_EMAIL</key><string>jensannasardo@gmail.com</string>
+  <key>MMBOT_SMTP_SERVER</key><string>smtp.gmail.com</string>
+  <key>MMBOT_SMTP_PORT</key><string>587</string>
+  <key>MMBOT_SIG_NAME</key><string>Thomas</string>
+  <key>MMBOT_SIG_HANDLE</key><string>punksm4ck</string>
+  <key>MMBOT_SIG_WORDMARK</key><string>VKTR</string>
+  <key>MMBOT_SIG_TAGLINE</key><string>Systems Architect</string>
+  <key>MMBOT_SIG_ACCENT</key><string>#ff6a00</string>
+</dict>
+<key>StandardOutPath</key><string>/Users/Thomas/.mmbot/listener_out.log</string>
+<key>StandardErrorPath</key><string>/Users/Thomas/.mmbot/listener_err.log</string>
+</dict></plist>

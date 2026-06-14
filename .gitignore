@@ -24,3 +24,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# machine logs — may contain captured secrets
+*.log
+.mmbot/
+listener_*.log
